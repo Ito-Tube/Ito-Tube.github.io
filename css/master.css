@@ -83,6 +83,7 @@ body {
 .buttons button{
   background: none ;
   border: none ;
+  outline: none;
 }
 
 .buttons img{
