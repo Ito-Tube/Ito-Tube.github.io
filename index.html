@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>いとチューブ</title>
+  <link rel="stylesheet" href="./css/master.css">
+</head>
+<body>
+  <div id="map"></div>
+  <div class="buttons">
+    <button id="pan2origin" type="button" onclick="pan2origin()"> <img src="./images/pins.png" alt="全体図"> </button>
+    <button id="getmyplace" type="button" onclick="getmyplace()"><img src="./images/target.png" alt="現在地"> </button>
+  </div>
+  <div id="video_screen" class="video_screen">
+    <button class="close_btn" type="button" onclick="close_video();"><span></span></button>
+    <div class="iframe_wrapper">
+      <iframe id="embed_video" class="embed_video" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+  <script src="https://maps.google.com/maps/api/js?key=AIzaSyBPcqGZJPDFqdp0mbJy_IX00YY8b0IMPF0&language=ja"></script>
+  <script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
