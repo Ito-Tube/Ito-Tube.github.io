@@ -98,7 +98,7 @@ function initMap(){
     });
 
     infoWindow[i] = new google.maps.InfoWindow({ // 吹き出しの追加
-      content: "<button class='info_button'type='button' onclick='playvideo("+i+")'><img src='./images/yt_icon_rgb.png'></img><h3 class='pop-title'>" + markerData[i]['name'] + "</h3><p>"+markerData[i]['description']+"<br>タップして動画を再生</p></button>" // 吹き出しに表示する内容
+      content: "<button class='info_button'type='button' onclick='playvideo("+i+")'><img src='./images/yt_icon_rgb.png'></img><h3 class='pop-title'>" + markerData[i]['name'] + "</h3><p>"+markerData[i]['description']+"<br><br>タップして動画を再生</p></button>" // 吹き出しに表示する内容
     });
 
     markerEvent(i); // マーカーにクリックイベントを追加
