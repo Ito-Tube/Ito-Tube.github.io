@@ -34,7 +34,7 @@ var markerData = [ // マーカーを立てる場所名・緯度・経度
     lat: 33.5880603,
     lng: 130.110623,
     description: '立石山への行き方を「芥屋第1駐車場」からわかりやすく解説',
-    video: 'Ww1VYCTA5m0'
+    video: 'IXkscIaahWQ'
   },{
     name: '立石山南側登山口',
     lat: 33.5800776,
@@ -58,7 +58,7 @@ var markerData = [ // マーカーを立てる場所名・緯度・経度
     lat: 33.4898821,
     lng: 130.168612,
     description: '糸島を一望できる展望台。夜景も綺麗です',
-    video: 'AuzaAYcKC9k'
+    video: 'nGVSHaDmubc'
   }
 ];
 var map;
